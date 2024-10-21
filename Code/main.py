@@ -7,12 +7,12 @@ listY = []
 sizeOfList = int(input("Dados por grade: "))
 i = 1
 while i<=sizeOfList:
-    uinput = float(input("Inserir dado coeficiente X (Dependente): "))
+    uinput = float(input("Inserir dado coeficiente X: "))
     listX.append(uinput)
     i = i+1
 i = 1
 while i<=sizeOfList:
-    uinput = float(input("Inserir dado do coeficiente Y (Intependente): "))
+    uinput = float(input("Inserir dado do coeficiente Y: "))
     listY.append(uinput)
     i = i+1                      
 
